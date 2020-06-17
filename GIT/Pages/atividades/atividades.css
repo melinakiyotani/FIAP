@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+  }
+  body{
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1565676408893-b47074f26eb6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1020&h=1020&q=100");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  .container{
+     height: inherit;
+  }
+  
+  .logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  ul li{
+     list-style: none;
+  }
+  
+  
+  .mgTop30{
+    margin-top: 30%;
+  }
+ 
+  .mgTop10{
+    margin-top: 10%;
+  }
+ 
+  .containerList{
+    min-height: 250px;
+  }
+ 
+  .buttonStyle{
+    border: none;
+    color: #fff;
+    background-color: rgba(47, 43, 73,0.85);
+    font-weight: bold;
+    width: 150px;
+    padding: 15px;
+    border-radius: 5px;
+  }
+ 
+ 
+ 
+  .lineHeight{
+     line-height: 2rem;
+  }
+ 
+ li{
+    list-style-type: disc;
+ }
+ 
+ .bgTransp{
+    background: transparent;
+    background-color: rgba(116, 112, 139, 0.554);
+ }
+  .inputStyle{
+    background: transparent;
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid black;
+  }
+ 
+  .inputStyle::placeholder{
+     color: #fff;
+     letter-spacing: 5px;
+ 
+  }
+ 
+  .inputStyle:focus{
+     outline: none;
+  }

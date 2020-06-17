@@ -1,0 +1,27 @@
+
+  body{
+    background-color: rgb(185, 169, 194);
+    color: rgb(0, 0, 0);
+  }
+  
+  .containerHeight{
+    height: 100vh;
+  }
+  
+  .height50{
+    margin-top: 20%;
+  }
+
+.bgGreen {
+    background-color: rgb(250, 246, 195) ;
+}
+
+.bgWheat {
+    background-color: rgb(248, 233, 205);
+}
+.button{
+    background: #fff;
+    color: rgb(10, 10, 10);
+    width: 100px;
+    border-radius: 5px;
+  }
